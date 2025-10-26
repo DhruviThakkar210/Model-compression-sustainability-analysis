@@ -54,10 +54,14 @@ Each configuration was executed for 3–5 epochs using CodeCarbon’s emission t
 **Figure 2 — Latency by Model**  
 *Distilled model performs 6× faster than baseline.*
 
-**Figure 3 — Model Size vs CO₂ Emissions**  
-*A near-linear inverse correlation: smaller models → greener models.*
 
 ---
 
 ## 🧮 Code Structure  
 
+├── baseline_results.py
+├── quantized_results.py
+├── pruned_results.py
+├── distilled_results.py
+├── emissions_summary.csv
+└── Assignment2_ModelCompression_SustainabilityReport.pdf
